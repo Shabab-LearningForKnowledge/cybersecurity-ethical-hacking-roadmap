@@ -49,7 +49,7 @@ Think about the things you use every day:
 
 All of these contain information that needs protection.
 
-2. 🤔 Why Does Cybersecurity Matter?
+# 2. 🤔 Why Does Cybersecurity Matter?
 
 Imagine someone gets access to your email account.
 
