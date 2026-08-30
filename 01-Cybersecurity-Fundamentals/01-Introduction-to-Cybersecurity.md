@@ -217,3 +217,36 @@ Weak Authentication
 Account Compromise
    ↓
 Potential Data Loss
+
+## 🧠 5. Think Like a Security Tester
+
+A beginner often asks:
+
+> "Which hacking tool should I learn?"
+
+A security tester should first ask:
+
+- What am I testing?
+- What is exposed?
+- What information is valuable?
+- How does the application work?
+- Where can something go wrong?
+- What security controls exist?
+- What could happen if a weakness is exploited?
+
+> **Understanding how something works is more important than simply knowing which tool to use.**
+
+Tools will come later.
+
+First, build the mindset.
+
+---
+
+## 🕵️ 6. Mini Challenge — What Do You Think?
+
+Imagine you are using a website that displays a user's profile.
+
+You see:
+
+```text
+https://example.com/profile?id=1001
