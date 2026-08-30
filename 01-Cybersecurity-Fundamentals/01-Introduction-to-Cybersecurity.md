@@ -49,6 +49,8 @@ Think about the things you use every day:
 
 All of these contain information that needs protection.
 
+---
+
 ## 2. 🤔 Why Does Cybersecurity Matter?
 
 What could they potentially do?
