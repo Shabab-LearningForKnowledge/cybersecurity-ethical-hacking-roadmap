@@ -460,37 +460,32 @@ Security depends on many factors including:
 
 If you have access to a Linux system, try the following commands.
 
-### Identify the Current User
+### Identify the current user
 
-```text
 whoami
 
 This shows the user account currently being used.
 
 ### Identify the Operating System
 
-```text
 uname -a
 
 This displays information about the Linux system and kernel.
 
 ### List Files
 
-```text
 ls
 
 This displays files and directories in the current location.
 
 ### List Files With Additional Information
 
-```text
 ls -la
 
 This provides additional information, including permissions and hidden files.
 
 ### View Running Processes
 
-```text
 ps
 
 This displays processes associated with the current session.
@@ -500,3 +495,385 @@ These commands are not hacking commands.
 They are basic system observation commands.
 
 > **A security professional should be comfortable observing the environment before attempting to test it.**
+
+## 🔍 15. Security Thinking Exercise
+
+Imagine you have been authorized to assess a computer.
+
+You discover:
+
+- 12 user accounts
+- 45 running processes
+- 20 background services
+- Several configuration files
+- Multiple installed applications
+
+Before testing anything, what would you want to understand?
+
+Think about:
+
+- Which users exist?
+- Which user am I currently using?
+- Which processes are running?
+- Which services are running?
+- Which applications are installed?
+- Who has access to sensitive files?
+- Which accounts have administrative privileges?
+- Are unnecessary services enabled?
+
+This is the beginning of system enumeration.
+
+You will encounter this concept repeatedly in cybersecurity.
+
+## 🧠 16. Think Like a Security Tester
+
+A beginner might think:
+
+> "I need to find a vulnerability immediately."
+
+A better approach is:
+
+> "First, I need to understand the system."
+
+Ask:
+
+- What operating system is being used?
+- Who am I?
+- What privileges do I have?
+- What applications are installed?
+- What processes are running?
+- What services are available?
+- What files exist?
+- Who can access those files?
+
+Only after understanding the environment should you start looking for weaknesses.
+
+> **Reconnaissance and enumeration come before exploitation.**
+
+---
+
+## 🎯 17. Day 2 Practical Exercise
+
+Perform the following exercise on **your own computer or an authorized lab system only**.
+
+### Windows Learners
+
+Run the following commands.
+
+### Command 1 — Identify the Current User
+
+```text
+whoami
+```
+
+Record the result.
+
+### Command 2 — Collect System Information
+
+```text
+systeminfo
+```
+
+Find:
+
+- Operating System
+- System Type
+- Processor
+- Installed RAM
+
+### Command 3 — View Running Processes
+
+```text
+tasklist
+```
+
+Find any five running processes.
+
+Record:
+
+- Process name
+- PID
+
+---
+
+### Linux Learners
+
+Run the following commands.
+
+### Command 1 — Identify the Current User
+
+```text
+whoami
+```
+
+Record the result.
+
+### Command 2 — Identify the Operating System
+
+```text
+uname -a
+```
+
+Record the operating system information.
+
+### Command 3 — List Files and Directories
+
+```text
+ls -la
+```
+
+Identify:
+
+- Files
+- Directories
+- Permission information
+
+### Command 4 — View Running Processes
+
+```text
+ps
+```
+
+Identify the processes displayed.
+
+---
+
+## 📝 18. Day 2 Assignment
+
+Answer the following questions in your own words.
+
+### Question 1
+
+What is the difference between RAM and Storage?
+
+### Question 2
+
+What is an Operating System?
+
+### Question 3
+
+What is a process?
+
+### Question 4
+
+What is a service?
+
+### Question 5
+
+Why are permissions important?
+
+### Question 6
+
+What is the Principle of Least Privilege?
+
+### Question 7
+
+Why should a security tester understand the operating system before testing it?
+
+### Question 8
+
+What is the difference between a user and an administrator?
+
+### Question 9
+
+Why can unnecessary services increase the attack surface?
+
+### Question 10
+
+Why should we understand a system before trying to exploit it?
+
+---
+
+## 🧠 19. Day 2 Quick Quiz
+
+Try to answer these questions before checking the answers.
+
+### Question 1
+
+Which component executes instructions?
+
+A. RAM
+
+B. CPU
+
+C. Storage
+
+D. Monitor
+
+### Question 2
+
+Which component provides temporary working memory?
+
+A. CPU
+
+B. SSD
+
+C. RAM
+
+D. Keyboard
+
+### Question 3
+
+What manages hardware resources and provides an environment for applications?
+
+A. Browser
+
+B. Operating System
+
+C. Database
+
+D. Firewall
+
+### Question 4
+
+What is a process?
+
+A. A stored file
+
+B. A running program
+
+C. A user account
+
+D. A network cable
+
+### Question 5
+
+Which of the following is a permission?
+
+A. Read
+
+B. Execute
+
+C. Write
+
+D. All of the above
+
+### Question 6
+
+What does the Principle of Least Privilege mean?
+
+A. Give everyone administrator access
+
+B. Give users only the access they need
+
+C. Disable all user accounts
+
+D. Give applications unlimited permissions
+
+### Question 7
+
+Why are services important to a security tester?
+
+A. They can provide functionality that may increase the attack surface
+
+B. They are always vulnerabilities
+
+C. They are only used by hackers
+
+D. They replace the operating system
+
+### Question 8
+
+Which command can show the current user on Windows and Linux?
+
+A. whoami
+
+B. tasklist
+
+C. systeminfo
+
+D. ls
+
+---
+
+## ✅ 20. Quiz Answers
+
+<details>
+<summary>Click here to reveal the answers</summary>
+
+1. **B — CPU**
+
+2. **C — RAM**
+
+3. **B — Operating System**
+
+4. **B — A running program**
+
+5. **D — All of the above**
+
+6. **B — Give users only the access they need**
+
+7. **A — They can provide functionality that may increase the attack surface**
+
+8. **A — whoami**
+
+</details>
+
+---
+
+## 🔑 21. Key Takeaways
+
+### CPU
+
+Executes instructions.
+
+### RAM
+
+Provides temporary working memory.
+
+### Storage
+
+Stores information for longer periods.
+
+### Operating System
+
+Manages hardware and provides an environment for applications.
+
+### User
+
+An account used to interact with the system.
+
+### Process
+
+A running program.
+
+### Service
+
+A background program or system component that provides functionality.
+
+### Permission
+
+Defines what a user or process is allowed to do.
+
+### Least Privilege
+
+Give only the access that is required.
+
+### System Enumeration
+
+Collecting and understanding information about a system.
+
+> **Before trying to exploit a system, understand the system.**
+
+---
+
+## 📌 Day 2 Completion Checklist
+
+Before considering Day 2 complete, make sure you can explain:
+
+- [ ] What a computer system is
+- [ ] What CPU does
+- [ ] What RAM does
+- [ ] What storage does
+- [ ] What an Operating System does
+- [ ] What a user account is
+- [ ] What a process is
+- [ ] What a service is
+- [ ] What permissions are
+- [ ] What Least Privilege means
+- [ ] Why system enumeration matters
+- [ ] Why understanding a system comes before exploitation
+
+---
+
+> **Learn responsibly. Test ethically.**
