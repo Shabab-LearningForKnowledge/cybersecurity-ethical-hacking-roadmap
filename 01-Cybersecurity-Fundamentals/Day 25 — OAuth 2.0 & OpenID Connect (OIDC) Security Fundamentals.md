@@ -1,4 +1,4 @@
-# Day 25: OAuth 2.0 & OpenID Connect (OIDC) Security Fundamentals
+# Day 25 — OAuth 2.0 & OpenID Connect (OIDC) Security Fundamentals
 
 ## 1. Introduction
 
