@@ -1,4 +1,4 @@
-# Day 26: SAML 2.0 & Single Sign-On (SSO) Security Fundamentals
+# Day 26 — SAML 2.0 & Single Sign-On (SSO) Security Fundamentals
 
 ## 1. Introduction
 
